@@ -1,4 +1,4 @@
-data_source dbsource:  
+data_source snowflake:  
     type: snowflake
     account: ne79235.ap-southeast-1
     username: VarunUpendran
