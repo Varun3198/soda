@@ -1,0 +1,15 @@
+data_source dbsource:  
+    type: snowflake
+    account: ne79235.ap-southeast-1
+    username: VarunUpendran
+    password: Runendran31!
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: COMPUTE_WH
+    schema: TPCH_SF1
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 411b1e48-19a3-44b5-a823-d187b9905318
+  api_key_secret: ORNPB51gs2HXZcgmk89BisjpFe0Ozstf2v9AAM7inuS3532WytmMCQ
