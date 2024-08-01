@@ -1,0 +1,4 @@
+checks for NATION:
+  - row_count:
+      name: count_check
+      fail: when = 0
